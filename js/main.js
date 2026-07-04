@@ -420,9 +420,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // images
     const images = [
-    "images/img1.jpg",
-    "images/img2.jpg",
-    "images/img3.jpg"
+    "images/16.png",
+    "images/12.png",
+    
 ];
 
 let current = 0;
