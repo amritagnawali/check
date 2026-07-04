@@ -436,4 +436,17 @@ setInterval(changeImage, 3000);
     document.head.appendChild(animStyle);
     
     console.log('✅ Incept Education Consultancy website loaded successfully!');
+
+    const images = [
+    "images/img1.jpg",
+    "images/img2.jpg",
+    "images/img3.jpg"
+];
+
+let current = 0;
+
+setInterval(() => {
+    current = (current + 1) % images.length;
+    document.getElementById("slider").src = images[current];
+}, 3000);
 });
