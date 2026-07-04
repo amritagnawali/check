@@ -417,6 +417,22 @@ document.addEventListener('DOMContentLoaded', function() {
             transition: opacity 0.6s ease, transform 0.6s ease;
         }
     `;
+
+    // images
+    const images = [
+    "images/img1.jpg",
+    "images/img2.jpg",
+    "images/img3.jpg"
+];
+
+let current = 0;
+
+function changeImage() {
+    current = (current + 1) % images.length;
+    document.getElementById("slider").src = images[current];
+}
+
+setInterval(changeImage, 3000);
     document.head.appendChild(animStyle);
     
     console.log('✅ Incept Education Consultancy website loaded successfully!');
