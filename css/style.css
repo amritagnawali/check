@@ -1815,32 +1815,20 @@ img {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
-   /* images */
-.slideshow {
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-}
+/* ===== ABOUT IMAGE SLIDESHOW ===== */
 
-.slideshow img {
+.about-img-wrapper {
     width: 100%;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-about-img-wrapper {
-    width: 100%;
-    height: 650px; /* same height as the blue section */
+    height: 650px;
     overflow: hidden;
     border-radius: 25px;
+    position: relative;
 }
 
 .about-img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px;
     display: block;
 }
       
