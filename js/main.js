@@ -419,10 +419,12 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     // images
-    const images = [
-    "images/16.png",
+   const images = [
+    "images/img1.jpg",
+    "images/img2.jpg",
+    "images/img3.jpg",
     "images/12.png",
-    
+    "images/16.png"
 ];
 
 let current = 0;
@@ -433,20 +435,10 @@ function changeImage() {
 }
 
 setInterval(changeImage, 3000);
-    document.head.appendChild(animStyle);
-    
-    console.log('✅ Incept Education Consultancy website loaded successfully!');
 
-    const images = [
-    "images/img1.jpg",
-    "images/img2.jpg",
-    "images/img3.jpg"
-];
+document.head.appendChild(animStyle);
 
-let current = 0;
+console.log('✅ Incept Education Consultancy website loaded successfully!');
 
-setInterval(() => {
-    current = (current + 1) % images.length;
-    document.getElementById("slider").src = images[current];
-}, 3000);
 });
+
