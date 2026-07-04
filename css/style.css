@@ -1802,6 +1802,7 @@ img {
 
 /* Print styles */
 @media print {
+
     .top-bar,
     .navbar,
     .chatbot-container,
@@ -1815,18 +1816,16 @@ img {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
-/* Print styles */
-@media print {
 
-   .about-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
+    .about-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
 
-.about-image,
-.about-content {
-    flex: 1;
-}
-      
+    .about-image,
+    .about-content {
+        flex: 1;
+    }
+
 }
