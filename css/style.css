@@ -228,7 +228,7 @@ img {
 }
 
 .logo img {
-    width: 68px;
+    width: 100px;
     height: auto;
     object-fit: contain;
 }
